@@ -1,0 +1,41 @@
+#introduce the person to the game
+print('welcome to mismatch the game, here are the rules:')
+print('\n')
+print('you will chose two letters to match until you get all\nthe letters correct.')
+print('\n')
+
+#create a deck of cards
+a = 'a'
+b = 'b'
+c = 'c'
+d = 'd'
+e = 'e'
+f = 'f'
+square_list = [[a,b,c],[d,e,f]]
+for inner_list in square_list:
+  print(inner_list)
+
+my_dict = {'a': 1, 'b': 3, 'c': 2, 'd': 3, 'e': 2, 'f': 1}
+#ask the user to chose two letters
+print('\n')
+print('choose two letters to match')
+print('\n')
+
+#create a loop to ask the user to chose two letters
+while True:
+  letter1 = input('choose a letter: ')
+  letter2 = input('choose another letter: ')
+  if letter1 == letter2:
+    print('you chose the same letter, try again')
+  else:
+    break
+
+#create a function to check if the letters are correct
+def check_letters(letter1, letter2):
+  if my_dict[letter1] == my_dict[letter2]:
+    print('correct')
+  else:
+    print('incorrect')
+
+#call the function
+check_letters(letter1, letter2)
