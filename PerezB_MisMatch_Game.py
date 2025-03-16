@@ -1,53 +1,69 @@
 import random
-#introduce the person to the game
-print('welcome to mismatch the game, here are the rules:')
-print('\n')
-print('you will chose two letters to match until you get all\nthe letters correct.')
-print('\n')
 
-#ask the user to chose two letters
-print('choose two letters to match')
+# introduce the person to the game & give instructions
+print('Welcome to Mismatch the Game! Here are the rules:')
+print('\n')
+print('You will choose two letters to match until you get all the letters correct.')
 print('\n')
 
-# Create a deck of cards 
-square_list = [['a','b','c','d'],['e','f','g','h']]
-for inner_list in square_list:    
-  print(inner_list) 
-  my_dict = {'a': 1, 'b': 2, 'c': 3, 'd': 2, 'e': 3, 'f': 1, 'g': 7, 'h': 7} 
-  list_copy = list(my_dict.values())
-  new_list_copy = random.sample(list_copy, len(list_copy))
-  random_list = dict(zip(my_dict.keys(), new_list_copy))
+# Ask the user for their favorite prizes (4 prizes, each repeated twice)
+prizes = []
+print("Please enter 4 prizes that you like (one for each prize):")
+for i in range(4):
+    prize = input(f"Enter your prize {i+1}: ")
+    prizes.append(prize)
 
+# Duplicate the prizes to make sure each one is assigned to two letters
+prizes = prizes * 2  # Each prize is now repeated twice
 
-# Define a function to check if the letters match 
+# Create a deck of cards by using 2d list of all cards (8 cards total)
+square_list = [['a', 'b', 'c', 'd'], ['e', 'f', 'g', 'h']]
+
+# Use a dictionary to map each letter to a prize
+my_dict = dict(zip(['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h'], prizes))
+
+# Randomize the prizes (values) and assign them to letters
+randomized_values = random.sample(prizes, len(prizes))  # Randomize the prizes
+
+# Create a new dictionary with the randomized prizes
+randomized_dict = dict(zip(my_dict.keys(), randomized_values))
+
+# Define a function to check if the letters match based on their values
 def check_letters(letter1, letter2): 
-  if random_list.get(letter1) == random_list.get(letter2): 
-    print('Correct!') 
-    print('-------------------------------------------------------')
-    return True 
-  else: 
-    print('Incorrect!')
-    print('-------------------------------------------------------')
-    return False 
+    if randomized_dict[letter1] == randomized_dict[letter2]: 
+        print(f'Correct! The prize is: {randomized_dict[letter1]}')
+        print('-------------------------------------------------------')
+        return True 
+    else: 
+        print('Incorrect. Try again!')
+        print('-------------------------------------------------------')
+        return False 
 
-# Count the number of cards left 
+# Count the number of cards left (each pair of matched letters reduces this count)
 number_of_cards = len(my_dict) 
+# List of revealed cards
+revealed = []
+
+# Main game loop
 while number_of_cards > 0: 
-  print(f'You have {number_of_cards} cards left.') 
-  print('Choose two letters to match') 
-  letter1 = input('Choose a letter: ').lower() 
-  letter2 = input('Choose another letter: ').lower() 
+    print(f'You have {number_of_cards} cards left.') 
+    print('Choose two letters to match') 
+    letter1 = input('Choose a letter: ').lower() 
+    letter2 = input('Choose another letter: ').lower() 
 
-  if letter1 not in my_dict or letter2 not in my_dict: 
-    print("Invalid input. Please choose letters from the given options.")       
-    continue 
-  if check_letters(letter1, letter2):
-    number_of_cards -= 2 
+    if letter1 not in my_dict or letter2 not in my_dict: 
+        print("Invalid input. Please choose letters from the given options.")       
+        continue 
 
-# Update the display of cards 
-    square_list = [[' ' if card == letter1 or card == letter2 else card for card in sublist] for sublist in square_list]
-    for inner_list in square_list: 
-      print(inner_list) 
+    if check_letters(letter1, letter2):
+        number_of_cards -= 2
+        # Add the matched cards to the revealed list
+        revealed.append(letter1)
+        revealed.append(letter2)
 
-    if number_of_cards == 0: 
-      print("Congratulations! You have matched all the cards.")
+        # Update the display of cards (show matched cards)
+        display_board(revealed) 
+
+        if number_of_cards == 0: 
+            print("Congratulations! You have matched all the cards.")
+            break  # End the game
