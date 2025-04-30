@@ -28,6 +28,17 @@ randomized_values = random.sample(prizes, len(prizes))  # Randomize the prizes
 # Create a new dictionary with the randomized prizes
 randomized_dict = dict(zip(my_dict.keys(), randomized_values))
 
+# Display the initial game board with hidden values
+def display_board(revealed):
+    print("\nCurrent board:")
+    for inner_list in square_list:
+        print([randomized_dict[card] if card in revealed else card for card in inner_list])
+    print("\n")
+
+# Display the initial board before the game starts
+print("Here's the board with the letters/cards:")
+display_board([])  # Display the board with all cards hidden
+
 # Define a function to check if the letters match based on their values
 def check_letters(letter1, letter2): 
     if randomized_dict[letter1] == randomized_dict[letter2]: 
