@@ -19,4 +19,4 @@ Looking back, I would have spent more time planning the page before coding it. A
 If I were to continue working on this artifact, I would start by improving my css to make the layout and design much cooler. maybe add sections/tab to add a link to youtube & show my favorite match of that wrestler and storyline behind it or even add interactive polls to gauge peoples favorite wrestlers kinda like a tinder cite but for finding out the publics pov on a wrestler. I’d be interested in turning the page into a small fan site with multiple pages and a navigation menu, using both css and JavaScript to enhance the user experience.
 
 ## WebPage in Action, Link Below:
-[WWE Fan Page](BPerezLuna1192.github.io/PerezB_WWE_Fanpage.html)
+[WWE Fan Page](https://bperezluna1192.github.io/PerezB_WWE_Fanpage.html)
