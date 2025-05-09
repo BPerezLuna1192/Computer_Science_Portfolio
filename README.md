@@ -3,18 +3,22 @@
 ---
 
 ## About Me  
-My name is **Brian Perez-Luna**, and I am a senior at **Inwood Early College High School**. I major in **Computer Information Systems** and follow a **Computer Science track**, learning both throughout my high school years.
+My name is **Brian Perez-Luna**, and I am a senior at **Inwood Early College High School**. I major in **Computer Information Systems** and follow a **Computer Science track**, learning both throughout my high school years. I've always loved sports and watch all kinds of sports as a kid but I also really liked technology and the idea of coding/ ability to protect or create things. As I grew up, realizing being a sports athlete isn't gonna be realistic I'd like to try from a different angle and squeeze through the tech industry.
+
+If you want to connect with me, here is my linkedin below:
+[My_linkedin](www.linkedin.com/in/brian-perez-luna-b04258337)
 
 ---
 
-## Career Interests  
-I am passionate about pursuing a career in **engineering** or **Information Technologies**, with a focus on:
+## Career & Future Goals  
+I’m passionate about building a career in **engineering** or **Information Technologies**, with a focus on:
 
-- **Cybersecurity**
-- **Data Science & Analytics**
+- **Cybersecurity**  
+- **Data Science & Analytics**  
 - **Software Engineering**
 
-My goal is to use these skills not only in the professional tech world but also in the **sports industry**, combining work with something I truly enjoy.
+One of my main goals is to combine these skills with my love for **sports**. There are exciting tech jobs in sports—like analyzing player performance with data, developing apps for fans, or protecting stadiums and teams from cyber threats. I plan to attend **City College** to continue building the technical and analytical skills I need for this path. Every project, certification, and opportunity I take on brings me one step closer to my goal.
+
 
 ---
 
@@ -29,5 +33,3 @@ My goal is to use these skills not only in the professional tech world but also 
 
 ---
 
-## Future Goals  
-I plan to attend **City College** to further develop my technical and analytical skills. Every project, certification, and opportunity I’ve pursued is a step toward my goal of securing my career in the future, especially in the field of **technology and sports**.
