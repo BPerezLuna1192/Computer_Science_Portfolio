@@ -3,6 +3,9 @@
 
 # Artifact Reflection: DataStory Project (DataScience)
 
+## DataScience Project below
+[Datastory Project]()
+
 ## Description and Purpose
 This artifact is a Datastory project I made during my senior year (Fall Semester) as part of my DataScience course. The point of the project was to create graphs & investigate/analyze it using what we had. I chose to investigate a fastfood dataset and analyzed it to inform people about the best fastfoods to have as a cheat meal. The purpose of this project was to demonstrate my ability to apply what we learned early on in the course like creating scatter plots, histograms etc & convey a point (presentation skills)
 
