@@ -6,7 +6,7 @@
 My name is **Brian Perez-Luna**, and I am a senior at **Inwood Early College High School**. I major in **Computer Information Systems** and follow a **Computer Science track**, learning both throughout my high school years. I've always loved sports and watch all kinds of sports as a kid but I also really liked technology and the idea of coding/ ability to protect or create things. As I grew up, realizing being a sports athlete isn't gonna be realistic I'd like to try from a different angle and squeeze through the tech industry.
 
 If you want to connect with me, here is my linkedin below:
-[My_linkedin](BPerezLuna1192.github.io/www.linkedin.com/in/brian-perez-luna-b04258337)
+[My_linkedin](www.linkedin.com/in/brian-perez-luna-b04258337)
 
 ---
 
