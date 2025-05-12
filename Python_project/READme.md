@@ -3,6 +3,9 @@
 
 # Artifact Reflection: Mismatch Card Game (Python 1 & 2)
 
+## Video of Python Mismatch game
+[Mismatch game](BPerezLuna1192.github.io/PerezB_python.html)
+
 ## Description and Purpose
 This artifact is a Python-based mismatch card game I made during my junior year as part of my Python 1 and 2 courses which I later revisited and added updates. The point of the project was to create a game using what we had learned across both semesters. I chose to code a mismatch game similar to the classic card-matching memory game.
 
