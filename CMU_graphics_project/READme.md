@@ -5,6 +5,7 @@
 
 ## Tic Tac Toe game at the moment:
 [Start screen](https://bperezluna1192.github.io/PerezB_CMU_Graphics_In_Action.mp4)
+<br>
 [Gameplay part](https://bperezluna1192.github.io/PerezB_CMU_Graphics_In_Action_(2).mp4)
 
 ## Description and Purpose
