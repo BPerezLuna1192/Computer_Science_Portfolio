@@ -3,6 +3,10 @@
 
 # Artifact Reflection: CMU Graphics Tic Tac Toe (AP CSP)
 
+## Tic Tac Toe game at the moment:
+[Start screen](https://bperezluna1192.github.io/PerezB_CMU_Graphics_In_Action.mp4)
+[Gameplay part](https://bperezluna1192.github.io/PerezB_CMU_Graphics_In_Action_(2).mp4)
+
 ## Description and Purpose
 This artifact is a game I tried to create in cmu graphics, this represents what I learned aside from the other computer science classes. The game I created or triied to create was tic tac toe. The goal of the project was to demonstrate my understanding of cmu graphics by building a game in cmu graphics. I chose this thinking it'd be a pretty easy doable task, turns out it's pretty difficult.
 
