@@ -8,6 +8,9 @@ My name is **Brian Perez-Luna**, and I am a senior at **Inwood Early College Hig
 If you want to connect with me, here is my linkedin below:
 [My_linkedin](https://www.linkedin.com/in/brian-perez-luna-b04258337/)
 
+Here is my PCEP cert
+[PCEP Cert]()
+
 ---
 
 ## Career & Future Goals  
