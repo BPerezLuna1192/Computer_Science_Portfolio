@@ -3,6 +3,9 @@
 
 # Artifact Reflection: WWE Fan Page (Intro to Web Development)
 
+## WebPage in Action, Link Below:
+[WWE Fan Page](https://bperezluna1192.github.io/PerezB_WWE_Fanpage.html)
+
 ## Description and Purpose
 This artifact is a basic HTML webpage I created, this represents what I learned in my Intro to Web Development class. It serves as a personal WWE fan page, where I shared how I got into wrestling and highlighted some of my favorite wrestlers at the time. The goal of the project was to demonstrate my understanding of HTML by building a webpage. Since this was my first real attempt at making a webpage from scratch, I chose a topic I was excited about to stay motivated on it.
 
@@ -17,6 +20,3 @@ Looking back, I would have spent more time planning the page before coding it. A
 
 ## Next Steps for Future Development
 If I were to continue working on this artifact, I would start by improving my css to make the layout and design much cooler. maybe add sections/tab to add a link to youtube & show my favorite match of that wrestler and storyline behind it or even add interactive polls to gauge peoples favorite wrestlers kinda like a tinder cite but for finding out the publics pov on a wrestler. I’d be interested in turning the page into a small fan site with multiple pages and a navigation menu, using both css and JavaScript to enhance the user experience.
-
-## WebPage in Action, Link Below:
-[WWE Fan Page](https://bperezluna1192.github.io/PerezB_WWE_Fanpage.html)
